@@ -4,8 +4,8 @@
 2. [06/20 OTX 모델 학습](#06/20-otx-모델-학습)
 3. [06/23 신호등 신호 판단 알고리즘 개발](#06/23-신호등-신호-판단-알고리즘-개발)
 4. [06/24 모델 통합 및 최적화](#06/24-모델-통합-및-최적화)
-5. [0626 코드 클래스화 및 통신 추가](#0626-코드-클래스화-및-통신-추가)
-6. [0627 UI 개발](#06/27-UI-개발)
+5. [06/26 코드 클래스화 및 통신 추가](#06/26-코드-클래스화-및-통신-추가)
+6. [06/27 UI 개발](#06/27-UI-개발)(#06/27-UI-개발) 
 
    
 ---
@@ -20,7 +20,7 @@
 -Ultralytics의 Yolov8n  모델 활용 학습
 
 ##Yolov8n 학습 코드
-*sign_light_yolo.py*
+-*sign_light_yolo.py*
 ![image](https://github.com/user-attachments/assets/2eda45c0-d22e-439c-a7a9-6403772bf2c1)
 
 
@@ -30,26 +30,26 @@
 - Precision Compress to FP16
 
 ## 테스트 추론
-*inference.py*
+-*inference.py*
 
 ![performance_metrics](https://github.com/suhwanjo/Intel-Edge-AI-Project/assets/112834460/149c796d-6e35-4bc7-97a6-e50096e9f91c)
 
 ---
 
 # 06/23 신호등 신호 판단 알고리즘 개발
-*inference_sign_light.py*
+-*inference_sign_light.py*
 - 신호등 객체를 4개의 segment로 분리한 후 평균 밝기를 계산합니다.
 
 ---
 
 # 06/24 모델 통합 및 최적화
-*model_integration.py*
+-*model_integration.py*
 -데스크탑에서 최적화 시행
 
 ---
 
 # 06/26 코드 클래스화 및 통신 추가
-*main.py*
+-*main.py*
 
 *traffic_sign_detection.py*
 - 신호등 및 비보호 좌회전 표지판 인식 및 처리 스레드입니다.
@@ -62,6 +62,6 @@
 ---
 
 # 06/27 UI 개발
-*qt.py*
+-*qt.py*
 - PyQT를 사용한 GUI입니다.
 
