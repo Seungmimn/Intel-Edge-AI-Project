@@ -51,13 +51,13 @@
 # 06/26 코드 클래스화 및 통신 추가
 -*main.py*
 
-*traffic_sign_detection.py*
+-*traffic_sign_detection.py*
 - 신호등 및 비보호 좌회전 표지판 인식 및 처리 스레드입니다.
 
-*vehicle_detection.py*
+-*vehicle_detection.py*
 - 차량 인식 및 거리 예측 스레드입니다.
 
-*video_processor.py*
+-*video_processor.py*
 - 실시간 영상의 프레임 처리 스레드입니다.
 ---
 
