@@ -19,7 +19,7 @@
 # 06/20 YOLO 모델 학습
 - Ultralytics의 Yolov8n  모델 활용 학습
 
-##Yolov8n 학습 코드
+## Yolov8n 학습 코드
 - *sign_light_yolo.py*
 
 ![image](https://github.com/user-attachments/assets/8bba31e8-898e-4568-b952-687096993ced)
@@ -32,7 +32,7 @@
 - Precision Compress to FP16
 
 ## 테스트 추론
--*inference.py*
+- *inference.py*
 
 ![performance_metrics](https://github.com/suhwanjo/Intel-Edge-AI-Project/assets/112834460/149c796d-6e35-4bc7-97a6-e50096e9f91c)
 
